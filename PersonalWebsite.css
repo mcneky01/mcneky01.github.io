@@ -1,0 +1,44 @@
+
+html {
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 60;
+    position: relative;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200x;
+    float: right;
+}
+
+.ah {
+    font-size: 22pt;
+    color: black;
+    padding: 10px;
+    border: solid black;
+    background-color: rgb(80,120,220);
+}
+
+section {
+    width: 400px;
+    height: 300px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+p {
+    width: 75%; 
+}
+
+#s1 {
+    float: left;
+}
+
+#s2 {
+    float: right;
+}
+
