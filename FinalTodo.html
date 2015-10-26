@@ -1,0 +1,45 @@
+<html>
+    
+    <head>
+        <title>Todo List</title>
+        <link rel=stylesheet href=todo2.css type=text/css />
+	<script src="FinalTodo.js" type="text/javascript"></script>
+        
+        <input id="addinput" type="text" value="" size="80">
+	<select id="priority">
+    	    <option>High</option>
+    	    <option>Medium</option>
+    	    <option>Low</option>
+	</select>
+	<button onclick="newTodo()">Add New Todo</button>
+    </head>
+        
+    <body>
+        <nav>
+        <h1>Todo List</h1>
+        </nav>
+
+	<section class="high">
+	<h3>High Priority</h3>
+        <ul id="highul">
+        </ul>
+        </section>
+
+	<section class="medium">
+	<h3>Medium Priority</h3>
+	<ul id="medul">
+	</ul>
+	</section>
+
+	<section class="low">
+	<h3>Low Priority</h3>
+	<ul id="lowul">
+	</ul>
+	</section>
+
+        <footer>
+            <p>Kyle McNeese's Todo List</p>
+        </footer>
+    </body>
+    
+</html>

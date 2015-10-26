@@ -1,0 +1,32 @@
+h3 {
+    color: white;
+    text-align: center;
+}
+
+.high {
+    background-color: red;
+    }
+  
+.medium {
+    background-color: orange;
+    }
+
+.low {
+    background-color: gray;
+    }
+
+.done {
+    color: black;
+    text-decoration: line-through;
+    }
+    
+section {
+    margin: 50px;
+    border: solid black;
+    width: 250px;
+    height: 250px;
+    }
+    
+ul {
+    list-style-type: none;
+}
